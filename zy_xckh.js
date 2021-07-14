@@ -2,7 +2,7 @@
 tgchannel：https://t.me/Ariszy_Script
 github：https://github.com/Ariszy/script
 boxjs：https://raw.githubusercontent.com/Ariszy/Private-Script/master/Ariszy.boxjs.json
-
+ * 推荐cron: 15 9 1-18 6 * 
 */
 const $ = new Env('新潮品牌狂欢')
 const notify = $.isNode() ?require('./sendNotify') : '';
