@@ -5,6 +5,7 @@
  */
 // 每个账号 token 是一个 json，示例如下
 // {"farm_jstoken":"749a90f871adsfads8ffda7bf3b1576760","timestamp":"1610165423873","phoneid":"42c7e3dadfadsfdsaac-18f0e4f4a0cf"}
+const $ = new Env("京喜农场 Tokens");
 let JxncTokens = [
   '',//账号一的京喜农场token
   '',//账号二的京喜农场token
