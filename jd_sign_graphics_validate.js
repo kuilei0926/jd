@@ -1,3 +1,4 @@
+const $ = new Env("京东签到图形验证");
 const navigator = {
   userAgent: require('./USER_AGENTS').USER_AGENT,
   plugins: { length: 0 },
