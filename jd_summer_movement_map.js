@@ -1,7 +1,7 @@
 /**
  *  燃动夏季领店铺任务
  *  蚊子腿金币
-7 10,20 * * *
+ *  cron 7 10,20 * * *
  * */
 const $ = new Env('燃动夏季领店铺任务');
 const notify = $.isNode() ? require('./sendNotify') : '';
