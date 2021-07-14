@@ -2,7 +2,7 @@
 
 cron 0 * * * * jd_cfd.js
  */
-
+const $ = new Env('京喜财富岛');
 const {format} = require('date-fns');
 const axios = require('axios');
 // import USER_AGENT from './TS_USER_AGENTS';
