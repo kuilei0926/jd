@@ -6,6 +6,7 @@ MITM添加:daojia.jd.com
 多账号可以每次获取后复制出来最后拼在一起用英文逗号(,)分隔后一起复制到boxjs里
 
 */
+const $ = new Env('京东到家获取Cookie脚本');
 const $ = new API("jddj_getck");
 !(async () => {
     if ($.env.isNode) {
